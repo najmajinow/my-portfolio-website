@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffb6c1;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff69b4;
+}
+
+/* Section Styles */
+.section {
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff69b4;
+}
+
+.section p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Pricing Plan Styles */
+.pricing-plan {
+    border: 2px solid #ffb6c1;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffe6f2;
+    border-radius: 8px;
+}
+
+.pricing-plan h3 {
+    margin-top: 0;
+    color: #ff69b4;
+}
+
+/* Additional Services Section */
+.additional-services {
+    margin-top: 30px;
+}
+
+.additional-service-heading {
+    font-size: 2em;
+    color: #ff69b4;
+    background-color: #ffb6c1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.additional-services p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
